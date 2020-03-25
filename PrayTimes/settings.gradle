@@ -1,0 +1,2 @@
+rootProject.name='Pray Times'
+include ':app'
