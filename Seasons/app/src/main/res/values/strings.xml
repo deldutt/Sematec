@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Seasons</string>
+    <string name="first_quarter">First quarter</string>
+    <string name="jan">JAN</string>
+    <string name="feb">FEB</string>
+    <string name="mar">MAR</string>
+    <string name="second_quarter">Second quarter</string>
+    <string name="apr">APR</string>
+    <string name="may">MAY</string>
+    <string name="jun">JUN</string>
+</resources>
