@@ -5,4 +5,6 @@
     <string name="asr">عصر</string>
     <string name="maghrib">مغرب</string>
     <string name="isha">عشا</string>
+    <string name="show_online_times">Online Times</string>
+    <string name="save">Save</string>
 </resources>
