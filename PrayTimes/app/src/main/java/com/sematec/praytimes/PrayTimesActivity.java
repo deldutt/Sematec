@@ -1,10 +1,13 @@
 package com.sematec.praytimes;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextClock;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.res.ResourcesCompat;
 
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
@@ -27,6 +30,10 @@ public class PrayTimesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pray_times);
+
+        TextClock clock = findViewById(R.id.clock);
+        Typeface typeface = ResourcesCompat.getFont(this, R.font.vazir_fd);
+        clock.setTypeface(typeface);
 
         if (isFirstRun() || isNotLatestPrayTime()) {
             showLatestPrayTimes();

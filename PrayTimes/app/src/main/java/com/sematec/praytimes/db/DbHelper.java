@@ -99,7 +99,7 @@ public class DbHelper extends SQLiteOpenHelper {
         prayTimesValues.put("ISHA_TIME", ishaTime);
 
         if (isUpdateOperation) {
-            db.update("Times", prayTimesValues, "_id = ?", new String[] {"1"});
+            db.update("Times", prayTimesValues, "_id = ?", new String[]{"1"});
         } else {
             db.insert("Times", null, prayTimesValues);
         }
