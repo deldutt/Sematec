@@ -17,11 +17,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
+            android:fontFamily="@font/vazir_fd"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/vazir_fd"
             android:text="@string/fajr"
             android:textStyle="bold" />
 
@@ -37,11 +39,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
+            android:fontFamily="@font/vazir_fd"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/vazir_fd"
             android:text="@string/dhuhr"
             android:textStyle="bold" />
 
@@ -57,11 +61,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
+            android:fontFamily="@font/vazir_fd"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/vazir_fd"
             android:text="@string/asr"
             android:textStyle="bold" />
 
@@ -77,11 +83,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
+            android:fontFamily="@font/vazir_fd"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/vazir_fd"
             android:text="@string/maghrib"
             android:textStyle="bold" />
 
@@ -97,11 +105,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
+            android:fontFamily="@font/vazir_fd"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/vazir_fd"
             android:text="@string/isha"
             android:textStyle="bold" />
 
